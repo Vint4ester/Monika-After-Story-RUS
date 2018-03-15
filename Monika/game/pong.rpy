@@ -352,7 +352,7 @@ label mas_pong_dlg_winner_fast:
 
 # dialogtue shown right when monika loses
 label mas_pong_dlg_loser:
-    m 1a "Ты победил! Поздравляю."
+    m 1a "Я выйграла, в следующий раз повезет."
     return
 
 # end dialogue shown when monka is the pong loser

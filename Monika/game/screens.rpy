@@ -406,7 +406,7 @@ screen quick_menu():
             textbutton _("Загрузить") action ShowMenu('load')
             #textbutton _("Q.Save") action QuickSave()
             #textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Натсройки") action ShowMenu('preferences')
+            textbutton _("Настройки") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -1451,7 +1451,7 @@ screen quit_dialog(message, ok_action):
                 xalign 0.5
                 spacing 100
 
-                textbutton _("QUIT") action ok_action
+                textbutton _("Выход") action ok_action
 
 image confirm_glitch:
     "gui/overlay/confirm_glitch.png"

@@ -356,7 +356,7 @@ label pick_a_game:
         $previous_dialogue = allow_dialogue
         $allow_dialogue = False
         menu:
-            "What game would you like to play?"
+            "В какую игру ты хотел бы сыграть?"
             "Pong" if persistent.game_unlocks['pong']:
                 if not renpy.seen_label('game_pong'):
                     $grant_xp(xp.NEW_GAME)
