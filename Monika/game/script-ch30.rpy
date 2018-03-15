@@ -373,8 +373,8 @@ label pick_a_game:
                 if not renpy.seen_label("mas_piano_start"):
                     $ grant_xp(xp.NEW_GAME)
                 call mas_piano_start from _call_play_piano
-            "Nevermind":
-                m "Alright. Maybe later?"
+            "Неважно":
+                m "Хорошо. Может позже?"
 
         show monika 1 at tinstant zorder 2
         $allow_dialogue = previous_dialogue
